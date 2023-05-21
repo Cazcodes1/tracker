@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+#btn,
+#btn-del,
+#btn-save {
+  background-color: rgb(12, 138, 58);
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+}
+
+#btn-del {
+  background-color: white;
+  color: rgb(12, 138, 58);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: 1px solid rgb(12, 138, 58);
+}
+
+#box {
+  padding: 10px;
+  border: 1px solid rgb(12, 112, 132);
+  width: 110px;
+  margin-top: 20px;
+  border-radius: 3px;
+  background: rgb(12, 112, 132);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+}
+
+#input-el {
+  border-radius: 3px;
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid green;
+}
+
+#ul-el {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+li a {
+  color: green;
+}
+li a:hover {
+  color: blue;
+}
+
+#container button {
+  border: none;
+  background: red;
+  color: white;
+  padding: 10px;
+}
